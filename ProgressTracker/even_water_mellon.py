@@ -23,7 +23,7 @@ For example, the boys can divide the watermelon into two parts of 2 and 6 kilos 
 
 if __name__ == '__main__':
     water_mellon_killo= int(input())
-    if water_mellon_killo%2 == 0:
+    if water_mellon_killo > 2 and water_mellon_killo % 2 == 0:
         print("YES")
     else:
         print("NO")
